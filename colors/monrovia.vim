@@ -58,18 +58,19 @@ highlight! StatusLine               guifg=#BADDF1  guibg=#375268  gui=NONE      
 highlight! StatusLineNC             guifg=#1F2433  guibg=#375268  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! Type                     guifg=#B8937C  guibg=NONE     gui=NONE       ctermfg=13    ctermbg=0     cterm=NONE
 highlight! LineNr                   guifg=#2F4659  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! SpecialKey               guifg=#538798  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=0     cterm=NONE
+highlight! SpecialKey               guifg=#538798  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
 highlight! ErrorMsg                 guifg=#8C3432  guibg=NONE     gui=NONE       ctermfg=0     ctermbg=0     cterm=NONE
 highlight! CursorLine               guifg=NONE     guibg=#232839  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
 highlight! CursorColumn             guifg=NONE     guibg=#1F2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! String                   guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
-highlight! PreProc                  guifg=#A1617A  guibg=NONE     gui=NONE       ctermfg=10     ctermbg=NONE  cterm=NONE
+highlight! PreProc                  guifg=#A1617A  guibg=NONE     gui=NONE       ctermfg=10    ctermbg=NONE  cterm=NONE
+highlight! MatchParen               guifg=#A1617A  guibg=#FFFFFF  gui=reverse    ctermfg=10     ctermbg=15    cterm=reverse
 highlight! Comment                  guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function                 guifg=#7095b4  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 highlight! WildMenu                 guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
+highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! DiffChange               guifg=#FFFFFF  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
@@ -112,7 +113,6 @@ highlight! link markdownUrl         SpecialKey
 highlight! link PmenuSel            StatusLine
 highlight! link TabLineSel          StatusLine
 highlight! link CursorLineNr        StatusLine
-highlight! link MatchParen          StatusLine
 highlight! link Pmenu               StatusLineNC
 highlight! link TabLine             StatusLineNC
 highlight! link VimCommentTitle     SpecialComment
