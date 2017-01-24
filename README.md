@@ -1,7 +1,7 @@
 Monrovia
 ------
 ###### Monrovia version 1.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22249677/c81f5c8a-e1f8-11e6-9fc9-2e519790918d.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22258591/0b737f7a-e217-11e6-8563-1b64c0668c8b.png)
 
 :rocket: Setup 
 ---------------
