@@ -69,22 +69,20 @@ highlight! Function                 guifg=#9E7156  guibg=NONE     gui=NONE      
 highlight! Special                  guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
 highlight! Number                   guifg=#CB2656  guibg=NONE     gui=NONE       ctermfg=9     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
+highlight! WildMenu                 guifg=#D3CBAF  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! PmenuSel                 guifg=#D3CBAF  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
 highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! DiffChange               guifg=#EEEADF  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
 highlight! DiffAdd                  guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
+highlight! TabLineFill              guifg=#375268  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
 highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
 
-highlight! link WildMenu            PmenuSel
 highlight! link ModeMsg             Special
 highlight! link PmenuThumb          PmenuSbar
-highlight! link TabLine             LineNr
-highlight! link TabLineFill         LineNr
 highlight! link Folded              LineNr
 highlight! link DiffDelete          Error
 highlight! link ColorColumn         CursorLine
@@ -110,9 +108,11 @@ highlight! link Underlined          SpecialKey
 highlight! link Boolean             SpecialKey
 highlight! link Question            SpecialKey
 highlight! link markdownUrl         SpecialKey
+highlight! link PmenuSel            StatusLine
 highlight! link TabLineSel          StatusLine
 highlight! link CursorLineNr        StatusLine
 highlight! link MatchParen          StatusLine
 highlight! link Pmenu               StatusLineNC
+highlight! link TabLine             StatusLineNC
 highlight! link VimCommentTitle     SpecialComment
 highlight! link Visual              SpecialComment
