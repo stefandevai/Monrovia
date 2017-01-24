@@ -16,7 +16,7 @@
 *.color10:      #a1617a
 
 ! yellow
-*.color3:       #538798
+*.color3:       #7095b4
 *.color11:      #247dae
 
 ! blue
@@ -28,7 +28,7 @@
 *.color13:      #b8937c
 
 ! cyan
-*.color6:       #60a195
+*.color6:       #538798
 *.color14:      #232839
 
 ! white

@@ -25,10 +25,10 @@
 "     Black        #1F2433      0       |      brBlack      #375268      8       |
 "     Red          #8C3432      1       |      brRed        #CB2656      9       |
 "     Green        #7F4C60      2       |      brGreen      #A1617A      10      |
-"     Yellow       #538798      3       |      brYellow     #247DAE      11      |
+"     Yellow       #7095b4      3       |      brYellow     #247DAE      11      |
 "     Blue         #B55242      4       |      brBlue       #C77366      12      |
 "     Magenta      #9E7156      5       |      brMagenta    #B8937C      13      |
-"     Cyan         #60A195      6       |      brCyan       #232839      14      |
+"     Cyan         #538798      6       |      brCyan       #232839      14      |
 "     White        #BADDF1      7       |      brWhite      #FFFFFF      15      |
 "---------------------------------------|-----------------------------------------
 
@@ -62,12 +62,10 @@ highlight! SpecialKey               guifg=#538798  guibg=NONE     gui=NONE      
 highlight! ErrorMsg                 guifg=#8C3432  guibg=NONE     gui=NONE       ctermfg=0     ctermbg=0     cterm=NONE
 highlight! CursorLine               guifg=NONE     guibg=#232839  gui=NONE       ctermfg=NONE  ctermbg=14    cterm=NONE
 highlight! CursorColumn             guifg=NONE     guibg=#1F2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! String                   guifg=#A1617A  guibg=NONE     gui=NONE       ctermfg=10    ctermbg=NONE  cterm=NONE
-highlight! PreProc                  guifg=#538798  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
+highlight! String                   guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
+highlight! PreProc                  guifg=#A1617A  guibg=NONE     gui=NONE       ctermfg=10     ctermbg=NONE  cterm=NONE
 highlight! Comment                  guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! Number                   guifg=#B55242  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! Function                 guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
-highlight! Special                  guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
+highlight! Function                 guifg=#7095b4  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 highlight! WildMenu                 guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
@@ -82,12 +80,12 @@ highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl 
 highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
 
 highlight! link ModeMsg             Special
-highlight! link Directory           Number
 highlight! link PmenuThumb          PmenuSbar
 highlight! link Folded              LineNr
 highlight! link DiffDelete          Error
 highlight! link ColorColumn         CursorLine
 highlight! link Identifier          Function
+highlight! link Special             Function 
 highlight! link Type                Function
 highlight! link Statement           Function
 highlight! link Constant            Function
@@ -103,6 +101,8 @@ highlight! link SignColumn          String
 highlight! link MoreMsg             String
 highlight! link markdownLinkText    String
 highlight! link WarningMsg          String
+highlight! link Directory           PreProc
+highlight! link Number              PreProc 
 highlight! link cssIdentifier       PreProc
 highlight! link cssClassName        PreProc
 highlight! link Underlined          SpecialKey
