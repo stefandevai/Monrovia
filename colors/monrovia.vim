@@ -68,7 +68,7 @@ highlight! MatchParen               guifg=#A1617A  guibg=#FFFFFF  gui=reverse   
 highlight! Comment                  guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function                 guifg=#7095b4  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
-highlight! WildMenu                 guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+highlight! Visual                   guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
@@ -80,6 +80,7 @@ highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl 
 highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
 highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
 
+highlight! link WildMenu            Visual
 highlight! link ModeMsg             Special
 highlight! link PmenuThumb          PmenuSbar
 highlight! link Folded              LineNr
@@ -117,4 +118,3 @@ highlight! link CursorLineNr        StatusLine
 highlight! link Pmenu               StatusLineNC
 highlight! link TabLine             StatusLineNC
 highlight! link VimCommentTitle     SpecialComment
-highlight! link Visual              SpecialComment
