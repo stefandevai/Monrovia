@@ -106,6 +106,7 @@ highlight! link Directory           PreProc
 highlight! link Number              PreProc 
 highlight! link cssIdentifier       PreProc
 highlight! link cssClassName        PreProc
+highlight! link phpVarSelector      PreProc
 highlight! link Underlined          SpecialKey
 highlight! link Boolean             SpecialKey
 highlight! link Question            SpecialKey
