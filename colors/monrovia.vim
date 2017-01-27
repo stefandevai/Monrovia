@@ -73,8 +73,8 @@ highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse   
 highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
 highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
-highlight! DiffChange               guifg=#FFFFFF  guibg=NONE     gui=reverse    ctermfg=15    ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                  guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
+highlight! DiffChange               guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                  guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7    ctermbg=NONE  cterm=reverse
 highlight! TabLineFill              guifg=#375268  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
