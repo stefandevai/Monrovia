@@ -54,6 +54,7 @@ let g:colors_name="monrovia"
 "=======================================================================================================================
 
 highlight! Normal                   guifg=#BADDF1  guibg=#1F2433  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
+highlight! TabLineSel               guifg=#1F2433  guibg=#BADDF1  gui=NONE       ctermfg=0     ctermbg=7     cterm=NONE
 highlight! StatusLine               guifg=#BADDF1  guibg=#375268  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
 highlight! StatusLineNC             guifg=#1F2433  guibg=#375268  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! Type                     guifg=#B8937C  guibg=NONE     gui=NONE       ctermfg=13    ctermbg=0     cterm=NONE
@@ -113,7 +114,6 @@ highlight! link Boolean             SpecialKey
 highlight! link Question            SpecialKey
 highlight! link markdownUrl         SpecialKey
 highlight! link PmenuSel            StatusLine
-highlight! link TabLineSel          StatusLine
 highlight! link CursorLineNr        StatusLine
 highlight! link Pmenu               StatusLineNC
 highlight! link TabLine             StatusLineNC
