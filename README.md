@@ -44,7 +44,7 @@ Download the .zip and copy `monrovia.vim` to `~/.vim/colors` (on Windows `<your-
 Feedback, issues or suggestions?. Open an Issue [Monrovia Issues](https://github.com/AlessandroYorba/Monrovia/issues)! Also, if you like Monrovia you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin
-[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007073/e64b67f0-dc24-11e6-833b-f141c5e7f008.png)](https://github.com/AlessandroYorba/Alduin)
+[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487387/fba71506-e7c1-11e6-9b11-5bb64df89126.png)](https://github.com/AlessandroYorba/Alduin)
 
 Despacio
 [![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007054/d29fda06-dc24-11e6-9b97-6001c5137a23.png)](https://github.com/AlessandroYorba/Despacio)
