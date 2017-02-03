@@ -65,21 +65,22 @@ highlight! CursorLine               guifg=NONE     guibg=#232839  gui=NONE      
 highlight! CursorColumn             guifg=NONE     guibg=#1F2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! String                   guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
 highlight! PreProc                  guifg=#A1617A  guibg=NONE     gui=NONE       ctermfg=10    ctermbg=NONE  cterm=NONE
-highlight! MatchParen               guifg=#A1617A  guibg=#FFFFFF  gui=reverse    ctermfg=10     ctermbg=15    cterm=reverse
+highlight! MatchParen               guifg=#A1617A  guibg=#FFFFFF  gui=reverse    ctermfg=10    ctermbg=15   cterm=reverse
 highlight! Comment                  guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! Function                 guifg=#7095b4  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! PmenuSbar                guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE
 highlight! Visual                   guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
 highlight! Todo                     guifg=#538798  guibg=NONE     gui=reverse    ctermfg=6     ctermbg=NONE  cterm=reverse
-highlight! Search                   guifg=#CB2656  guibg=NONE     gui=reverse    ctermfg=9     ctermbg=NONE  cterm=reverse
+highlight! Search                   guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! DiffChange               guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=11    ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                  guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7    ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                  guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! TabLineFill              guifg=#375268  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
 highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
+highlight! VertSplit                guifg=#375268  guibg=#232839  gui=NONE       ctermfg=8     ctermbg=14    cterm=NONE
 
 highlight! link WildMenu            Visual
 highlight! link ModeMsg             Special
@@ -99,7 +100,6 @@ highlight! link FoldColumn          PreProc
 highlight! link DiffText            DiffAdd
 highlight! link SpellRare           SpellLocal
 highlight! link NonText             Comment
-highlight! link VertSplit           Comment
 highlight! link SignColumn          String
 highlight! link MoreMsg             String
 highlight! link markdownLinkText    String
