@@ -1,7 +1,7 @@
 Monrovia
 ------
 ###### Monrovia version 1.0.0
-![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22258591/0b737f7a-e217-11e6-8563-1b64c0668c8b.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/11221489/22623162/331a7528-eb05-11e6-8793-a835137a17ec.png)
 
 :rocket: Setup 
 ---------------
@@ -44,13 +44,13 @@ Download the .zip and copy `monrovia.vim` to `~/.vim/colors` (on Windows `<your-
 Feedback, issues or suggestions?. Open an Issue [Monrovia Issues](https://github.com/AlessandroYorba/Monrovia/issues)! Also, if you like Monrovia you might want to check out some of the other Vim themes that I'm working on:
 
 Alduin
-[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22487387/fba71506-e7c1-11e6-9b11-5bb64df89126.png)](https://github.com/AlessandroYorba/Alduin)
+[![alduinScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623143/d70df37c-eb04-11e6-8719-0e27e6ded63f.png)](https://github.com/AlessandroYorba/Alduin)
 
 Despacio
-[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007054/d29fda06-dc24-11e6-9b97-6001c5137a23.png)](https://github.com/AlessandroYorba/Despacio)
+[![despacioScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623157/1e4ed4ae-eb05-11e6-9056-50f57daab6fc.png)](https://github.com/AlessandroYorba/Despacio)
 
 Sierra
-[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007069/de0ceaa0-dc24-11e6-80c5-2e047f42d29b.png)](https://github.com/AlessandroYorba/Sierra)
+[![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623168/51b4d8f2-eb05-11e6-81a0-8eff4c9b0955.png)](https://github.com/AlessandroYorba/Sierra)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22007049/c89cc046-dc24-11e6-8237-9eed289bc8a0.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623165/406dc8f6-eb05-11e6-8106-0cc2f5af6186.png)](https://github.com/AlessandroYorba/Sidonia)
