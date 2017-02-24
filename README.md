@@ -53,4 +53,4 @@ Sierra
 [![sierraScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623168/51b4d8f2-eb05-11e6-81a0-8eff4c9b0955.png)](https://github.com/AlessandroYorba/Sierra)
 
 Sidonia
-[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/22623165/406dc8f6-eb05-11e6-8106-0cc2f5af6186.png)](https://github.com/AlessandroYorba/Sidonia)
+[![sidoniaScreenshot](https://cloud.githubusercontent.com/assets/11221489/23323607/22201dec-fa9e-11e6-8a33-b5d3ec4a71f6.png)](https://github.com/AlessandroYorba/Sidonia)
