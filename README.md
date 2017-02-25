@@ -1,31 +1,28 @@
 Monrovia
 ------
-###### Monrovia version 1.0.0
+###### Monrovia 
 ![Screenshot](https://cloud.githubusercontent.com/assets/11221489/23326236/a662d312-fab0-11e6-9182-770c17eaf448.png)
+
+:hankey: Notes
+----------------
+> Warning: This is an experimental colorscheme that uses a very limited color palette. It's designed to be simple and streamlined. Let me know what you think, suggestions are welcome!
+
 
 :rocket: Setup 
 ---------------
 ###### 24 Bit Color Setup ( Recommended )
 
-If you have a GUI Vim or a 24-bit terminal with Vim 8, add this to your vimrc:
+Add this to your vimrc:
 ```VimL
 set termguicolors
 colorscheme monrovia
 ```
-Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
+> Not sure if your terminal supports 24 bit colorschemes? Check out this list: [Truecolor Supported Terminals ](https://gist.github.com/XVilka/8346728)
 
-###### ANSI Setup
-
-If you do not have Vim8 you can still run monrovia in full color. You will need to use the monrovia terminal theme in conjunction with the monrovia.vim colorscheme. Essentially this method works similar to the Base-16 colorschemes in that vim will target the terminal colors ( 0 - 15 ). Then add this to your vimrc:
-
-```VimL
-colorscheme monrovia
-```
-
-:open_file_folder: Installation
+:open_file_folder: Updates from Github
 -----------------------------------------
 
-There are a few ways to install monrovia. The first option is by using your favorite vim package manager and the second is by manual download.
+> There are a few ways to update monrovia. The first option is by using your favorite vim package manager and the second is by manual download.
 
 ###### Package Manager Option
 
