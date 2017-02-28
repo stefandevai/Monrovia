@@ -74,21 +74,21 @@ highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse   
 highlight! Function                 guifg=#7095b4  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
-highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=10    ctermbg=NONE  cterm=undercurl
-highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=11    ctermbg=NONE  cterm=undercurl
+highlight! SpellLocal               guifg=#A1617A  guibg=NONE     gui=undercurl  ctermfg=2     ctermbg=NONE  cterm=undercurl
+highlight! SpellCap                 guifg=#247DAE  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
 
 "=======================================================================================================================
 " MONROVIA:
 "=======================================================================================================================
 if 1
     highlight! PreProc              guifg=#7f4c60  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-    highlight! String               guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=10    ctermbg=NONE  cterm=NONE
+    highlight! String               guifg=#247DAE  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
     highlight! Search               guifg=#7f4c60  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
     highlight! DiffAdd              guifg=#BADDF1  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
     highlight! DiffChange           guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
     highlight! MatchParen           guifg=#1F2433  guibg=#7f4c60  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
     highlight! SpecialKey           guifg=#538798  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
-    highlight! Todo                 guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=10    ctermbg=NONE  cterm=reverse
+    highlight! Todo                 guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 endif
 
 highlight! link DiffDelete          Error
