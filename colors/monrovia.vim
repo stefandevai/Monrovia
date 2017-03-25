@@ -76,7 +76,6 @@ highlight! Error                    guifg=#8C3432  guibg=NONE     gui=reverse   
 highlight! SpellBad                 guifg=#8C3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
 highlight! SpellLocal               guifg=#116a86  guibg=NONE     gui=undercurl  ctermfg=2     ctermbg=NONE  cterm=undercurl
 highlight! SpellCap                 guifg=#7fb1b9  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
-
 highlight! PreProc                  guifg=#cb2656  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
 highlight! Type                     guifg=#7fb1b9  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Constant                 guifg=#9b5d75  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
@@ -87,7 +86,6 @@ highlight! DiffChange               guifg=#247DAE  guibg=NONE     gui=reverse   
 highlight! MatchParen               guifg=#252a2f  guibg=#9b5d75  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
 highlight! SpecialKey               guifg=#196459  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
 highlight! Todo                     guifg=#116a86  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
-
 
 highlight! link DiffDelete          Error
 highlight! link ErrorMsg            Error
@@ -104,8 +102,6 @@ highlight! link Number              PreProc
 highlight! link FoldColumn          PreProc
 highlight! link phpVarSelector      PreProc
 highlight! link Directory           PreProc
-highlight! link cssIdentifier       PreProc
-highlight! link cssClassName        PreProc
 highlight! link Identifier          Function
 highlight! link Statement           Function
 highlight! link Special             Type
