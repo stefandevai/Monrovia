@@ -62,7 +62,7 @@ highlight! LineNr                   guifg=#586069  guibg=NONE     gui=NONE      
 highlight! TabLine                  guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE 
 highlight! TabLineSel               guifg=#252a2f  guibg=#7c94a3  gui=NONE       ctermfg=0     ctermbg=3     cterm=NONE
 highlight! TabLineFill              guifg=#586069  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
-highlight! CursorLine               guifg=NONE     guibg=#252a2f  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+highlight! CursorLine               guifg=NONE     guibg=#22262b  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! CursorColumn             guifg=NONE     guibg=#252a2f  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! StatusLine               guifg=#e6e5e5  guibg=#586069  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
 highlight! StatusLineNC             guifg=#252a2f  guibg=#586069  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
@@ -120,4 +120,3 @@ highlight! link ColorColumn         CursorLine
 highlight! link CursorLineNr        TabLineSel
 highlight! link PmenuSel            StatusLine
 highlight! link SpellRare           SpellLocal
-
