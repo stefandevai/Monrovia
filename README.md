@@ -9,7 +9,7 @@ colorscheme monrovia
 
 :octocat: Credits
 -----------------
-[shawncplus for skittles_berry](https://github.com/shawncplus/skittles_berry)
+[shawncplus for skittles_berry](https://github.com/shawncplus/skittles_berry)<br>
 [fuadsaud for UI contribution](https://github.com/fuadsaud)
 
 :octopus: Moar Colorschemes
