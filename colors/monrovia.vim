@@ -16,10 +16,10 @@
 "=================================================================================
 " MONROVIA TERMINAL COLORS:
 "=================================================================================
-"     Foreground    #ffffff             |      Selection     #7fb1b9             |
+"     Foreground    #e6e5e5             |      Selection     #7fb1b9             |
 "     Background    #252a2f             |      Selected Text #252a2f             |
 "     CursorColor   #FFFFFF             |                                        |
-"     Bold          #FFFFFF             |                                        |
+"     Bold          #e6e5e5             |                                        |
 "     Links         #CB2656             |                                        |
 "=================================================================================
 " ANSI COLORS:
@@ -34,7 +34,7 @@
 "     Blue          #9b5d75      4      |      brBlue        #9b5d75      12     |
 "     Magenta       #cb2656      5      |      brMagenta     #cb2656      13     |
 "     Cyan          #268074      6      |      brCyan        #268074      14     |
-"     White         #FFFFFF      7      |      brWhite       #FFFFFF      15     |
+"     White         #e6e5e5      7      |      brWhite       #e6e5e5      15     |
 "---------------------------------------|-----------------------------------------
 "=================================================================================
 " SETUP:
@@ -57,14 +57,14 @@ endif
 "=======================================================================================================================
 " COMMON MONROVIA HIGHLIGHTING:
 "=======================================================================================================================
-highlight! Normal                   guifg=#FFFFFF  guibg=#252a2f  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
+highlight! Normal                   guifg=#e6e5e5  guibg=#252a2f  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
 highlight! LineNr                   guifg=#586069  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
 highlight! TabLine                  guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE 
 highlight! TabLineSel               guifg=#252a2f  guibg=#7fb1b9  gui=NONE       ctermfg=0     ctermbg=3     cterm=NONE
 highlight! TabLineFill              guifg=#586069  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
 highlight! CursorLine               guifg=NONE     guibg=#252a2f  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
 highlight! CursorColumn             guifg=NONE     guibg=#252a2f  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! StatusLine               guifg=#FFFFFF  guibg=#586069  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
+highlight! StatusLine               guifg=#e6e5e5  guibg=#586069  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
 highlight! StatusLineNC             guifg=#252a2f  guibg=#586069  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
 highlight! VertSplit                guifg=#586069  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
 highlight! Visual                   guifg=#7fb1b9  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
@@ -81,7 +81,7 @@ highlight! Type                     guifg=#7fb1b9  guibg=NONE     gui=NONE      
 highlight! Constant                 guifg=#9b5d75  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
 highlight! String                   guifg=#268074  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Search                   guifg=#9b5d75  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                  guifg=#FFFFFF  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                  guifg=#e6e5e5  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! DiffChange               guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! MatchParen               guifg=#252a2f  guibg=#9b5d75  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
 highlight! SpecialKey               guifg=#268074  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
