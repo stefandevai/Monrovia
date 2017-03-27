@@ -33,7 +33,7 @@
 "     Yellow        #7fb1b9      3      |      brYellow      #7fb1b9      11     |
 "     Blue          #9b5d75      4      |      brBlue        #9b5d75      12     |
 "     Magenta       #cb2656      5      |      brMagenta     #cb2656      13     |
-"     Cyan          #196459      6      |      brCyan        #196459      14     |
+"     Cyan          #268074      6      |      brCyan        #268074      14     |
 "     White         #FFFFFF      7      |      brWhite       #FFFFFF      15     |
 "---------------------------------------|-----------------------------------------
 "=================================================================================
@@ -79,12 +79,12 @@ highlight! SpellCap                 guifg=#7fb1b9  guibg=NONE     gui=undercurl 
 highlight! PreProc                  guifg=#cb2656  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
 highlight! Type                     guifg=#7fb1b9  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
 highlight! Constant                 guifg=#9b5d75  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! String                   guifg=#196459  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
+highlight! String                   guifg=#268074  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
 highlight! Search                   guifg=#9b5d75  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
 highlight! DiffAdd                  guifg=#FFFFFF  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
 highlight! DiffChange               guifg=#247DAE  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
 highlight! MatchParen               guifg=#252a2f  guibg=#9b5d75  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
-highlight! SpecialKey               guifg=#196459  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
+highlight! SpecialKey               guifg=#268074  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
 highlight! Todo                     guifg=#116a86  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
 
 highlight! link DiffDelete          Error
