@@ -34,27 +34,32 @@
 " THE SOFTWARE.
 
 "=================================================================================
-" MONROVIA TERMINAL COLORS:
+" BASIC TERMINAL COLORS:
 "=================================================================================
-"     Foreground    #e6e5e5             |      Selection     #7fb1b9             |
-"     Background    #252a2f             |      Selected Text #252a2f             |
-"     CursorColor   #FFFFFF             |                                        |
-"     Bold          #e6e5e5             |                                        |
+"     Foreground    #d3cbaf             |      Selection     #538798             |
+"     Background    #1f2433             |      Selected Text #1f2433             |
+"     Bold          #ffffff             |                                        |
 "     Links         #CB2656             |                                        |
 "=================================================================================
-" ANSI COLORS:
+" CURSOR COLORS:                                                                 |
+"=================================================================================
+"     CursorColor   #FFFFFF             |                                        |
+"     CursorText    #1f2433             |                                        |
+"=================================================================================
+" ANSI COLORS:                                                                   |
 "=================================================================================
 "---------------------------------------|-----------------------------------------
 "     NORMAL        Hex          xterm  |      BRIGHT        Hex          xterm  |
 "---------------------------------------|-----------------------------------------
-"     Black         #252a2f      0      |      brBlack       #586069      8      |
-"     Red           #8c3432      1      |      brRed         #8c3432      9      |
-"     Green         #006686      2      |      brGreen       #006686      10     |
-"     Yellow        #7c94a3      3      |      brYellow      #7c94a3      11     |
-"     Blue          #9b5d75      4      |      brBlue        #9b5d75      12     |
-"     Magenta       #c24d43      5      |      brMagenta     #c24d43      13     |
-"     Cyan          #c7b6a3      6      |      brCyan        #c7b6a3      14     |
-"     White         #e6e5e5      7      |      brWhite       #e6e5e5      15     |
+"     Black         #1f2433      0      |      brBlack       #375268      8      |
+"     Red           #8c3432      1      |      brRed         #cb2656      9      |
+"     Green         #7f4c60      2      |      brGreen       #a1617a      10     |
+"     Yellow        #538798      3      |      brYellow      #006686      11     |
+"     Blue          #b55242      4      |      brBlue        #c77366      12     |
+"     Magenta       #9e7156      5      |      brMagenta     #cea58b      13     |
+"FIXME 
+"     Cyan          #60a195      6      |      brCyan        #60a195      14     |
+"     White         #d3cbaf      7      |      brWhite       #d3cbaf      15     |
 "---------------------------------------|-----------------------------------------
 "=================================================================================
 " SETUP:
@@ -75,37 +80,57 @@ endif
 
 
 "=======================================================================================================================
-" COMMON MONROVIA HIGHLIGHTING:
+" MONROVIA HIGHLIGHTING:
 "=======================================================================================================================
-highlight! Normal                   guifg=#e6e5e5  guibg=#252a2f  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
-highlight! LineNr                   guifg=#586069  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! TabLine                  guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE 
-highlight! TabLineSel               guifg=#252a2f  guibg=#7c94a3  gui=NONE       ctermfg=0     ctermbg=3     cterm=NONE
-highlight! TabLineFill              guifg=#586069  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
-highlight! CursorLine               guifg=NONE     guibg=#22262b  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! CursorColumn             guifg=NONE     guibg=#252a2f  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
-highlight! StatusLine               guifg=#e6e5e5  guibg=#586069  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
-highlight! StatusLineNC             guifg=#252a2f  guibg=#586069  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
-highlight! VertSplit                guifg=#586069  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
-highlight! Visual                   guifg=#7c94a3  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
-highlight! PmenuSbar                guifg=#586069  guibg=#375268  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
-highlight! Comment                  guifg=#586069  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
-highlight! SpecialComment           guifg=#586069  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
-highlight! Function                 guifg=#006686  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=NONE  cterm=NONE
+
+"=======================================================================================================================
+"FIXME once background color has been finalized fix the following
+"=======================================================================================================================
+    highlight! CursorLine               guifg=NONE     guibg=#1f2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+    highlight! CursorColumn             guifg=NONE     guibg=#1f2433  gui=NONE       ctermfg=NONE  ctermbg=0     cterm=NONE
+
+highlight! Normal                   guifg=#d3cbaf  guibg=#1f2433  gui=NONE       ctermfg=7     ctermbg=0     cterm=NONE
+highlight! Visual                   guifg=#538798  guibg=NONE     gui=reverse    ctermfg=3     ctermbg=NONE  cterm=reverse
+highlight! PmenuSbar                guifg=#375268  guibg=#375268  gui=NONE       ctermfg=8     ctermbg=8     cterm=NONE
+highlight! Comment                  guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+highlight! SpecialComment           guifg=#375268  guibg=NONE     gui=reverse    ctermfg=8     ctermbg=NONE  cterm=reverse
+highlight! Function                 guifg=#cea58b  guibg=NONE     gui=NONE       ctermfg=13    ctermbg=NONE  cterm=NONE
 highlight! Error                    guifg=#8c3432  guibg=NONE     gui=reverse    ctermfg=1     ctermbg=NONE  cterm=reverse
 highlight! SpellBad                 guifg=#8c3432  guibg=NONE     gui=undercurl  ctermfg=1     ctermbg=NONE  cterm=undercurl
-highlight! SpellLocal               guifg=#006686  guibg=NONE     gui=undercurl  ctermfg=2     ctermbg=NONE  cterm=undercurl
-highlight! SpellCap                 guifg=#7c94a3  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
-highlight! PreProc                  guifg=#c24d43  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
-highlight! Type                     guifg=#7c94a3  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
-highlight! Constant                 guifg=#9b5d75  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
-highlight! String                   guifg=#c7b6a3  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=NONE  cterm=NONE
-highlight! Search                   guifg=#9b5d75  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
-highlight! DiffAdd                  guifg=#e6e5e5  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
-highlight! DiffChange               guifg=#c24d43  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
-highlight! MatchParen               guifg=#252a2f  guibg=#9b5d75  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
-highlight! SpecialKey               guifg=#c7b6a3  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
+highlight! SpellLocal               guifg=#7f4c60  guibg=NONE     gui=undercurl  ctermfg=2     ctermbg=NONE  cterm=undercurl
+highlight! SpellCap                 guifg=#538798  guibg=NONE     gui=undercurl  ctermfg=3     ctermbg=NONE  cterm=undercurl
+highlight! PreProc                  guifg=#8c3432  guibg=NONE     gui=NONE       ctermfg=1     ctermbg=NONE  cterm=NONE
+highlight! Type                     guifg=#9e7156  guibg=NONE     gui=NONE       ctermfg=5     ctermbg=NONE  cterm=NONE
+highlight! Constant                 guifg=#b55242  guibg=NONE     gui=NONE       ctermfg=4     ctermbg=NONE  cterm=NONE
+highlight! String                   guifg=#538798  guibg=NONE     gui=NONE       ctermfg=3     ctermbg=NONE  cterm=NONE
+highlight! Search                   guifg=#b55242  guibg=NONE     gui=reverse    ctermfg=4     ctermbg=NONE  cterm=reverse
+highlight! DiffAdd                  guifg=#d3cbaf  guibg=NONE     gui=reverse    ctermfg=7     ctermbg=NONE  cterm=reverse
+highlight! DiffChange               guifg=#9e7156  guibg=NONE     gui=reverse    ctermfg=5     ctermbg=NONE  cterm=reverse
+highlight! MatchParen               guifg=#1f2433  guibg=#b55242  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
+highlight! SpecialKey               guifg=#7f4c60  guibg=NONE     gui=NONE       ctermfg=2     ctermbg=0     cterm=NONE
+highlight! Special                  guifg=#006686  guibg=NONE     gui=NONE       ctermfg=11    ctermbg=NONE  cterm=NONE
 highlight! Todo                     guifg=#006686  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! Number                   guifg=#cb2656  guibg=NONE     gui=NONE       ctermfg=9     ctermbg=NONE  cterm=NONE
+
+"=======================================================================================================================
+" MONROVIA UI:
+"=======================================================================================================================
+if 1
+    highlight! LineNr               guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=NONE  cterm=NONE
+    highlight! TabLine              guifg=NONE     guibg=NONE     gui=NONE       ctermfg=NONE  ctermbg=NONE  cterm=NONE 
+    highlight! TabLineSel           guifg=#1f2433  guibg=#538798  gui=NONE       ctermfg=0     ctermbg=3     cterm=NONE
+    highlight! TabLineFill          guifg=#375268  guibg=NONE     gui=underline  ctermfg=8     ctermbg=NONE  cterm=underline
+    highlight! StatusLine           guifg=#d3cbaf  guibg=#375268  gui=NONE       ctermfg=7     ctermbg=8     cterm=NONE
+    highlight! StatusLineNC         guifg=#1f2433  guibg=#375268  gui=NONE       ctermfg=0     ctermbg=8     cterm=NONE
+    highlight! VertSplit            guifg=#375268  guibg=NONE     gui=NONE       ctermfg=8     ctermbg=0     cterm=NONE
+endif
+
+"=======================================================================================================================
+" MONROVIA MIDNIGHT:
+"=======================================================================================================================
+if g:monrovia_Midnight
+    "midnight settings go here
+endif
 
 highlight! link DiffDelete          Error
 highlight! link ErrorMsg            Error
@@ -118,14 +143,13 @@ highlight! link MoreMsg             String
 highlight! link markdownLinkText    String
 highlight! link WarningMsg          String
 highlight! link Title               PreProc
-highlight! link Number              PreProc
 highlight! link FoldColumn          PreProc
 highlight! link phpVarSelector      PreProc
 highlight! link Directory           PreProc
+highlight! link Operator            Function
 highlight! link Identifier          Function
-highlight! link Statement           Function
-highlight! link Special             Type
-highlight! link Operator            Normal
+highlight! link Statement           Type
+highlight! link Label               Type
 highlight! link markdownUrl         SpecialKey
 highlight! link Underlined          SpecialKey
 highlight! link Question            SpecialKey
@@ -140,3 +164,4 @@ highlight! link ColorColumn         CursorLine
 highlight! link CursorLineNr        TabLineSel
 highlight! link PmenuSel            StatusLine
 highlight! link SpellRare           SpellLocal
+
