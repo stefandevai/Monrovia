@@ -106,6 +106,12 @@ highlight! DiffChange               guifg=#c24d43  guibg=NONE     gui=reverse   
 highlight! MatchParen               guifg=#252a2f  guibg=#9b5d75  gui=NONE       ctermfg=0     ctermbg=4     cterm=NONE
 highlight! SpecialKey               guifg=#c7b6a3  guibg=NONE     gui=NONE       ctermfg=6     ctermbg=0     cterm=NONE
 highlight! Todo                     guifg=#006686  guibg=NONE     gui=reverse    ctermfg=2     ctermbg=NONE  cterm=reverse
+highlight! htmlItalic               guifg=#BADDF1  guibg=NONE     gui=italic      ctermfg=0    ctermbg=NONE  cterm=italic 
+highlight! htmlBold                 guifg=#7095B4  guibg=NONE     gui=bold        ctermfg=6    ctermbg=NONE  cterm=bold 
+highlight! htmlBoldItalic           guifg=#5E7FAD  guibg=NONE     gui=bold,italic ctermfg=6    ctermbg=NONE  cterm=bold,italic
+highlight! htmlH1                   guifg=#A1617A  guibg=#2E354B  gui=bold,italic,underline ctermfg=9    ctermbg=8     cterm=bold,italic,underline  
+highlight! htmlH2                   guifg=#B78699  guibg=NONE     gui=bold,italic,underline ctermfg=1    ctermbg=NONE  cterm=bold,italic,underline  
+highlight! htmlH3                   guifg=#643C4C  guibg=NONE     gui=bold,italic,underline ctermfg=1    ctermbg=NONE  cterm=bold,italic,underline
 
 highlight! link DiffDelete          Error
 highlight! link ErrorMsg            Error
